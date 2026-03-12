@@ -22,7 +22,7 @@ let duration = getShiftDuration(firstIn, lastOut);
 console.log('shiftDuration Test case 1', duration);
 
 firstIn = "7:30:30 am";
-lastOut = "12:26:20 am";
+lastOut = "12:26:20 pm";
 duration = getShiftDuration(firstIn, lastOut);
 console.log('shiftDuration Test case 2', duration);
 
