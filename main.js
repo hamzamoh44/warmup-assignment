@@ -497,9 +497,7 @@ function getNetPay(driverID, actualHours, requiredHours, rateFile) {
     let deductionRatePerHour = Math.floor(basePay / 185);
     let salaryDeduction = billableMissingHours * deductionRatePerHour;
 
-    let netPay = basePay - salaryDeduction;
-
-    return netPay;
+    return basePay - salaryDeduction;
 }
 
 
